@@ -17,3 +17,27 @@ The I2C pins used are:
 
 Pullups are on the Micro board.
 
+## Micro 13DOF Click board
+
+This breakout board contains the following sensors:
+BMM150 - geomagnetic sensor from Bosch
+BME680 – Low power gas, pressure, temperature and humidity sensor from Bosch 
+BMI088 – small, versatile 6Dof sensor module from Bosch
+
+## Rust Crates
+
+embedded_hal - Rust embedded system HAL
+        https://crates.io/crates/embedded-hal
+stm32f4 - Low level register definitions for STM32F4 libraries.
+        https://crates.io/crates/stm32f4
+stm32f4xx-hal - HAL abstractions for STM32F4 uC
+        https://crates.io/crates/stm32f4xx-hal
+BME680 - library for accessing the BME680 environmental sensor
+        https://github.com/marcelbuesing/bme680
+BMI160 - driver for BMI160 IMU, might be adaptable for the BMI088
+        https://crates.io/crates/bmi160
+BMI088 - Driver for BMI088, needs I2C support added.
+        https://crates.io/crates/bmi088
+usbd-serial - USB CDC Serial driver build around embedded_hal
+        https://crates.io/crates/usbd-serial
+
