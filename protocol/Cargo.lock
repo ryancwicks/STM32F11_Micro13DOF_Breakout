@@ -98,7 +98,9 @@ dependencies = [
 name = "protocol"
 version = "0.1.0"
 dependencies = [
+ "heapless",
  "postcard",
+ "serde",
 ]
 
 [[package]]

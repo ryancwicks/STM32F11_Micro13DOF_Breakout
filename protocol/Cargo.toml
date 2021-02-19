@@ -6,3 +6,5 @@ edition = "2018"
 
 [dependencies]
 postcard = "0.5.2"
+serde = {version = "1.0", default_features=false, features=["derive"]}
+heapless = "0.5.4"
